@@ -11,6 +11,7 @@
     width: 200px;
     text-align: center;
     box-sizing: border-box; /**/
+    flex-direction: column;
 }
 .card img{
     max-width: 100%;
@@ -37,3 +38,4 @@ button:hover{
     background-color: var(--cor-primaria); /* Muda a cor de fundo do botão para a cor primária ao passar o mouse */
     color: var(--cor-branca); /* Muda a cor do texto do botão para branco ao passar o mouse */
 }
+
